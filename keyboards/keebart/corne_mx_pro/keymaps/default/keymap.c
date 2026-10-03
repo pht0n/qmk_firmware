@@ -67,11 +67,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------+--------|
-        RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RM_TOGG, RM_HUEU, RM_SATU, RM_VALU, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------+--------'
         //`--------+--------+--------+--------+--------+--------+--------|
-        RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RM_NEXT, RM_HUED, RM_SATD, RM_VALD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------+--------.
         //,--------+--------+--------+--------+--------+--------+--------|
@@ -145,11 +145,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------|
-        RGB_TOG, RGB_HUI, RGB_SAI, RGB_VAI, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RM_TOGG, RM_HUEU, RM_SATU, RM_VALU, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------|
-        RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        RM_NEXT, RM_HUED, RM_SATD, RM_VALD, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         //|--------+--------+--------+--------+--------+--------+--------|
         //|--------+--------+--------+--------+--------+--------+--------|
@@ -162,31 +162,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] =
         {
-            ENCODER_CCW_CW(RGB_MOD, RGB_RMOD),
-            ENCODER_CCW_CW(RGB_HUI, RGB_HUD),
-            ENCODER_CCW_CW(RGB_VAI, RGB_VAD),
-            ENCODER_CCW_CW(RGB_SAI, RGB_SAD),
+            ENCODER_CCW_CW(RM_NEXT, RM_PREV),
+            ENCODER_CCW_CW(RM_HUEU, RM_HUED),
+            ENCODER_CCW_CW(RM_VALU, RM_VALD),
+            ENCODER_CCW_CW(RM_SATU, RM_SATD),
         },
     [1] =
         {
-            ENCODER_CCW_CW(RGB_MOD, RGB_RMOD),
-            ENCODER_CCW_CW(RGB_HUI, RGB_HUD),
-            ENCODER_CCW_CW(RGB_VAI, RGB_VAD),
-            ENCODER_CCW_CW(RGB_SAI, RGB_SAD),
+            ENCODER_CCW_CW(RM_NEXT, RM_PREV),
+            ENCODER_CCW_CW(RM_HUEU, RM_HUED),
+            ENCODER_CCW_CW(RM_VALU, RM_VALD),
+            ENCODER_CCW_CW(RM_SATU, RM_SATD),
         },
     [2] =
         {
-            ENCODER_CCW_CW(RGB_MOD, RGB_RMOD),
-            ENCODER_CCW_CW(RGB_HUI, RGB_HUD),
-            ENCODER_CCW_CW(RGB_VAI, RGB_VAD),
-            ENCODER_CCW_CW(RGB_SAI, RGB_SAD),
+            ENCODER_CCW_CW(RM_NEXT, RM_PREV),
+            ENCODER_CCW_CW(RM_HUEU, RM_HUED),
+            ENCODER_CCW_CW(RM_VALU, RM_VALD),
+            ENCODER_CCW_CW(RM_SATU, RM_SATD),
         },
     [3] =
         {
-            ENCODER_CCW_CW(RGB_MOD, RGB_RMOD),
-            ENCODER_CCW_CW(RGB_HUI, RGB_HUD),
-            ENCODER_CCW_CW(RGB_VAI, RGB_VAD),
-            ENCODER_CCW_CW(RGB_SAI, RGB_SAD),
+            ENCODER_CCW_CW(RM_NEXT, RM_PREV),
+            ENCODER_CCW_CW(RM_HUEU, RM_HUED),
+            ENCODER_CCW_CW(RM_VALU, RM_VALD),
+            ENCODER_CCW_CW(RM_SATU, RM_SATD),
         },
 };
 #endif
